@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="styles.css">
+    <head>
+        <title>Welcome to Eripio.xyz</title>
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <p>Hello and welcome to Eripio. My name is Klint.</p>
+        <p>The purpose of this website is to serve as a small hub for all the projects i've been or still am working on.</p>
+    </body>
+</html>
