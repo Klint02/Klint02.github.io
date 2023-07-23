@@ -1,0 +1,129 @@
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  body {
+      font-family: monospace;
+      background: linear-gradient(#151b33, #0a0d19);  
+      max-width: 95%;
+      margin: auto;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+  body {
+      font-family: monospace;
+      background: linear-gradient(#151b33, #0a0d19);  
+      max-width: 95%;
+      margin: auto;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 960px) {
+  /* Styles */
+  body {
+      font-family: monospace;
+      background: linear-gradient(#151b33, #0a0d19)fixed;  
+      max-width: 70%;
+      margin: auto;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+  body {
+      font-family: monospace;
+      background: linear-gradient(#151b33, #0a0d19)fixed;  
+      max-width: 75%;
+      margin: auto;
+    }
+}
+.topbar {
+    display: inline-flex; 
+    align-items: center;
+}
+
+.topbarImage {
+    width: 50px; 
+    height: 50px;  
+    padding-right: 20px
+}
+  
+h1 {
+	font-family: monospace;
+	color: #84868e;
+	font-size: 300%;
+  text-align:left;
+}
+
+h2 {
+	font-family: monospace;
+	color: #84868e;
+	font-size: 250%;
+  text-align:left;
+}
+
+p {
+	font-family: monospace;
+	color: #84868e;
+	font-size: 225%;
+}
+
+hr {
+	color: #84868e;
+}
+
+p.articleTitle {
+	font-family: monospace;
+	color: #84868e;
+	font-size: 180%;
+	
+}
+
+li.article {
+	font-family: monospace;
+	color: #84868e;
+	font-size: 225%;
+}
+
+ul.article {
+    text-align: left;
+
+}
+li.links {
+    display: inline-block;
+    width: 240px;
+    vertical-align: top;
+
+}
+
+ul.links {
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+
+.frontpageSplitSpan {
+    display: inline-block;
+    flex-shrink: inherit;
+    vertical-align: text-top;
+    }
+
+#wrapper {
+    display: flex; /* Magic begins! */
+    height: 100px;
+}
+#left {
+width: 80%; /* Desired width. Will be less is the window is narrow */
+}
+#right {
+width: auto;  /* Desired width. Will be less is the window is narrow */
+margin-left: auto; /* Push it to the right */
+}
+#wrapper > div > div { /* Unrelated styles */
+float: left;
+}
