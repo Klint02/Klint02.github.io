@@ -1,91 +1,86 @@
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width: 321px) {
-  body {
+/* Styles */
+body {
       font-family: monospace;
-      background: linear-gradient(#151b33, #0a0d19);  
-      max-width: 95%;
-      margin: auto;
-    }
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
-  /* Styles */
-  body {
-      font-family: monospace;
-      background: linear-gradient(#151b33, #0a0d19);  
-      max-width: 95%;
-      margin: auto;
-    }
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 960px) {
-  /* Styles */
-  body {
-      font-family: monospace;
-      background: linear-gradient(#151b33, #0a0d19)fixed;  
-      max-width: 70%;
-      margin: auto;
-    }
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
-  /* Styles */
-  body {
-      font-family: monospace;
-      background: linear-gradient(#151b33, #0a0d19)fixed;  
+      background: #1e1e1f;
       max-width: 75%;
       margin: auto;
-    }
 }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
 .topbar {
-    display: inline-flex; 
+    display: inline-flex;
     align-items: center;
 }
 
 .topbarImage {
-    width: 50px; 
-    height: 50px;  
+    width: 50px;
+    height: 50px;
     padding-right: 20px
 }
-  
+.profilePicContainer {
+    width: 100%; 
+    align-self: center; 
+    display: flex; 
+    justify-content: center;
+}
+
+.profilePic {
+  border-radius: 50%; 
+  width: 400px; 
+  max-width: 80%;
+}
+
 h1 {
-	font-family: monospace;
-	color: #84868e;
-	font-size: 300%;
+  font-family: monospace;
+  color: #84868e;
+  font-size: 300%;
   text-align:left;
 }
 
 h2 {
-	font-family: monospace;
-	color: #84868e;
-	font-size: 250%;
+  font-family: monospace;
+  color: #84868e;
+  font-size: 250%;
   text-align:left;
 }
 
 p {
-	font-family: monospace;
-	color: #84868e;
-	font-size: 225%;
+  font-family: monospace;
+  color: #84868e;
+  font-size: 190%;
 }
 
 hr {
-	color: #84868e;
+  color: #84868e;
 }
 
 p.articleTitle {
-	font-family: monospace;
-	color: #84868e;
-	font-size: 180%;
-	
+  font-family: monospace;
+  color: #84868e;
+  font-size: 180%;
+
 }
 
 li.article {
-	font-family: monospace;
-	color: #84868e;
-	font-size: 225%;
+  font-family: monospace;
+  color: #84868e;
+  font-size: 225%;
 }
 
 ul.article {
@@ -103,7 +98,7 @@ ul.links {
     text-align: center;
     list-style: none;
     padding-left: 0;
-    
+
 }
 
 
